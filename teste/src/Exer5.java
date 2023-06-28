@@ -7,8 +7,10 @@ public class Exer5 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Digite um palavra:");
-		String palavra = sc.next();
-		palavra = palavra.trim().toLowerCase();
+		String palavra = sc.nextLine();
+		System.out.println(palavra);
+		palavra = palavra.trim().toLowerCase().replaceAll(" ", "");
+		
 		boolean isPalind = true;
 		for (int i = palavra.length(); i > 0; i--) {
 			if(palavra.charAt(i-1)!= palavra.charAt(palavra.length()- i)) {
@@ -22,6 +24,8 @@ public class Exer5 {
 		}else {
 			System.out.println("a palavra não é palindromo");
 		}
+		
+		sc.close();
 		
 	}
 
