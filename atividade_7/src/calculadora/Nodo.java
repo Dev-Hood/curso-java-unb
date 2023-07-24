@@ -1,5 +1,7 @@
 package calculadora;
 
-public interface Nodo {
+import java.io.Serializable;
+
+public interface Nodo extends Serializable {
 	 int calcula();
 }
