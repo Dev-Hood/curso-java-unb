@@ -1,7 +1,7 @@
 package atividade_7;
 
 import armazenamento.Armazenamento;
-import armazenamento.ArmazenamentoArquivo;
+import armazenamento.ArmazenamentoH2;
 import calculadora.Divisao;
 import calculadora.Expo;
 import calculadora.Multiplicacao;
@@ -13,8 +13,8 @@ import calculadora.Valor;
 public class Main {
 
 	public static void main(String[] args) {
-	Armazenamento armazenamento = new ArmazenamentoArquivo();
-//		Armazenamento armazenamento = new ArmazenamentoH2();
+//	Armazenamento armazenamento = new ArmazenamentoArquivo();
+		Armazenamento armazenamento = new ArmazenamentoH2();
 
 
 		String expressao1 = "(5 + (10 / 2))";
