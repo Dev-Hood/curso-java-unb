@@ -2,6 +2,7 @@ package atividade_7;
 
 import armazenamento.Armazenamento;
 import armazenamento.ArmazenamentoH2;
+import atividade_8_exer1.SimpleFactory;
 import calculadora.Divisao;
 import calculadora.Expo;
 import calculadora.Multiplicacao;
@@ -12,10 +13,16 @@ import calculadora.Valor;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 //	Armazenamento armazenamento = new ArmazenamentoArquivo();
-		Armazenamento armazenamento = new ArmazenamentoH2();
+//		Armazenamento armazenamento = new ArmazenamentoH2();
 
+
+		
+//IMPLEMENTAÇÃO DO EXERCIO 1 DA ATIVIDADE 8
+		Armazenamento armazenamento = SimpleFactory.createArmazenamento("H2");
+		
+		
 
 		String expressao1 = "(5 + (10 / 2))";
 		String expressao2 = "(3 * (8 + 2))";
