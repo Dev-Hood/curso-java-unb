@@ -21,6 +21,11 @@ public class Disciplina {
 	private String curso;
 	private String local;
 
+	@ManyToOne
+	@JoinColumn(name="professor_id")
+	private Professor professor;
+
+	
 	@ManyToMany
 	@JoinTable(name = "aluno_disciplina", joinColumns = @JoinColumn(name = "disciplina_id"), inverseJoinColumns = @JoinColumn(name = "aluno_id"))
 	private List<Aluno> alunos;
@@ -92,6 +97,14 @@ public class Disciplina {
 
 	public void setAlunos(List<Aluno> alunos) {
 		this.alunos = alunos;
+	}
+
+	public Professor getProfessor() {
+		return professor;
+	}
+
+	public void setProfessor(Professor professor) {
+		this.professor = professor;
 	}
 
 	
