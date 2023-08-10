@@ -90,15 +90,6 @@ public class DisciplinaDAO {
 		return disciplinas;
 	}
 
-	public List<Disciplina> findPorIdadeMinima(int idade) {
-		int idadeMinima = idade;
-		Session session = HibernateUtil.getSessionFactory().openSession();
-		Query query = session.createQuery("FROM Disciplina WHERE idade > :idade");
-		query.setParameter("idade", idadeMinima);
-		List<Disciplina> disciplinas = query.list();
-		session.close();
-		return disciplinas;
-	}
 
 	public List<Disciplina> listByNomeSQL(String nome) {
 		String sql = "SELECT * FROM disciplina WHERE nome = :nome";
