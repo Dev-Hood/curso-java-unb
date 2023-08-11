@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.jboss.ide.eclipse.as.core.server.runtime.runtimeTarget/JBoss 5.1 Runtime teste"/>
+	<classpathentry kind="lib" path="C:/Users/16344378611/Downloads/jboss-5.1.0.GA/common/lib/hibernate-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/16344378611/Downloads/jboss-5.1.0.GA/common/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/16344378611/Downloads/jboss-5.1.0.GA/lib/dom4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/16344378611/Downloads/jboss-5.1.0.GA/client/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/16344378611/Downloads/jboss-5.1.0.GA/client/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/16344378611/Desktop/curso-java-UnB/aluno_disciplina_hibernate/src/main/webapp/WEB-INF/lib/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/16344378611/Desktop/curso-java-UnB/aluno_disciplina_hibernate/src/main/webapp/WEB-INF/lib/h2-1.4.200.jar"/>
+	<classpathentry kind="lib" path="C:/Users/16344378611/Desktop/curso-java-UnB/aluno_disciplina_hibernate/src/main/webapp/WEB-INF/lib/struts-1.2.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/16344378611/Desktop/curso-java-UnB/projeto_final/src/main/java/br/unb/view/WEB-INF/lib/struts-1.2.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/16344378611/Desktop/webUnb/src/main/webapp/WEB-INF/lib/struts-1.2.9.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
